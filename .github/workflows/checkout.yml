@@ -19,9 +19,10 @@ jobs:
       - name: Run shell script
         run: |
           chmod +x ./test.sh
+          ./test.sh
       - name: Default environment variables
         run: |
-          cho $GITHUB_SHA
+          echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
           echo "${{ github.token }}"
