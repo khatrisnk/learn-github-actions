@@ -16,6 +16,8 @@ jobs:
         run: |
           pwd
           ls -a
+      - name: Run shell script
+        run: ./test.sh
       - name: Default environment variables
         run: |
           cho $GITHUB_SHA

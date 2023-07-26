@@ -12,5 +12,3 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: Run shell script
-        run: ./test.sh
