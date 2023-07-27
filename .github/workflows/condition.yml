@@ -1,4 +1,4 @@
-name: Context
+name: Condition
 on: [push, pull_request]
 
 jobs:
